@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Sonnenfunk TR-700",
+    "price": 64.00,
+    "imgUrl": "images/alternate_red.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Silberhirsch ARX-30",
+    "price": 32.00,
+    "imgUrl": "images/phone_white.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Narcomi RR-800",
+    "price": 19.00,
+    "imgUrl": "images/radio.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "StockwellFuzz",
+    "price": 42.00,
+    "imgUrl": "images/headphones_beige.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Pilatus U-300",
+    "price": 26.00,
+    "imgUrl": "images/headset.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Monte Rosa B",
+    "price": 47.00,
+    "imgUrl": "images/kettle.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Rheinwelle VTR-200",
+    "price": 25.00,
+    "imgUrl": "images/phone_black.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Rheinwelle VTR-450",
+    "price": 41.00,
+    "imgUrl": "images/phone_black2.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Walthamstow Classic",
+    "price": 54.00,
+    "imgUrl": "images/phone_metal.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "PimlicoPulse V-7000",
+    "price": 9.00,
+    "imgUrl": "images/calculator.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Kronenbaum Y-2043",
+    "price": 66.00,
+    "imgUrl": "images/phone_white2.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Vauxhall Link XS",
+    "price": 22.00,
+    "imgUrl": "images/phone.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Victoriavox QM-500",
+    "price": 30.00,
+    "imgUrl": "images/radio_brown.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Narcomi RR-2000",
+    "price": 22.00,
+    "imgUrl": "images/radio_brown2.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Narcomi P-48",
+    "price": 27.00,
+    "imgUrl": "images/radio_red.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Parment (Reptilian)",
+    "price": 79.00,
+    "imgUrl": "images/curling_iron.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Radiolo Rust",
+    "price": 40.00,
+    "imgUrl": "images/steel_headphones.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Chronomos Red",
+    "price": 12.00,
+    "imgUrl": "images/timer.jpeg"
+  }
+]
