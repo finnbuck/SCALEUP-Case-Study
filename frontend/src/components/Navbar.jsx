@@ -1,14 +1,13 @@
 import { Navbar as BootstrapNavbar, Container, Nav, Button} from "react-bootstrap"
 import { NavLink } from "react-router-dom"
+import { useShoppingCart } from "../context/ShoppingCartContext"
 
 export function Navbar() {
+  const { cartQuantity } = useShoppingCart()
   return (
     <BootstrapNavbar sticky="top" className="bg-white shadow-sm mb-3">
       <Container>
         <Nav className="me-auto">
-          <Nav.Link to="/" as={NavLink}>
-            Home
-          </Nav.Link>
           <Nav.Link to="/store" as={NavLink}>
             Store
           </Nav.Link>
@@ -34,7 +33,7 @@ export function Navbar() {
               transform: "translate(25%, 25%)"
             }}
             >
-              3
+              { cartQuantity }
           </div>
         </Nav.Link>
       </Container>
