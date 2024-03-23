@@ -12,6 +12,8 @@ export function Navbar() {
             <span className="fs-2">Case Study Electronics</span>
           </Nav.Link>
         </Nav>
+        {/* The shopping cart button consists of a nav-link disguised as a bootstrap button. 
+        The svg of the shopping cart was taken from flowbite.com/icons/ */}
         <Nav.Link 
           style={{width: "3rem", height: "3rem", position: "relative" }}
           className="rounded-circle btn active btn-outline-primary d-flex align-items-center justify-content-center"
@@ -33,6 +35,7 @@ export function Navbar() {
               transform: "translate(25%, 25%)"
             }}
             >
+              {/* The number in the red circle is updated based on the ShoppingCartContext */}
               { cartQuantity }
           </div>
         </Nav.Link>

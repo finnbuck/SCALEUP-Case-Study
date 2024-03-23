@@ -7,10 +7,13 @@ import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 
 function App() {
   return (
+      // The shopping card provider allows information about
+      // the shopping cart to be accessed throughout the site.
       <ShoppingCartProvider>
         <Navbar />
         <Container className="mb-4">
           <Routes>
+            {/* The "store" page is the main landing page*/}
             <Route path="/" element={<Store />} />
             <Route path="/shopping-cart" element={<ShoppingCart />} />
           </Routes>
