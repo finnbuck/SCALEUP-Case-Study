@@ -3,108 +3,126 @@
     "id": 1,
     "name": "Sonnenfunk TR-700",
     "price": 64.00,
-    "imgUrl": "images/alternate_red.jpeg"
+    "imgUrl": "images/alternate_red.jpeg",
+    "type": "radio"
   },
   {
     "id": 2,
     "name": "Silberhirsch ARX-30",
     "price": 32.00,
-    "imgUrl": "images/phone_white.jpeg"
+    "imgUrl": "images/phone_white.jpeg",
+    "type": "handheld"
   },
   {
     "id": 3,
     "name": "Narcomi RR-800",
     "price": 19.00,
-    "imgUrl": "images/radio.jpeg"
+    "imgUrl": "images/radio.jpeg",
+    "type": "radio"
   },
   {
     "id": 4,
     "name": "StockwellFuzz",
     "price": 42.00,
-    "imgUrl": "images/headphones_beige.jpeg"
+    "imgUrl": "images/headphones_beige.jpeg",
+    "type": "headphones"
   },
   {
     "id": 5,
     "name": "Pilatus U-300",
     "price": 26.00,
-    "imgUrl": "images/headset.jpeg"
+    "imgUrl": "images/headset.jpeg",
+    "type": "headphones"
   },
   {
     "id": 6,
     "name": "Monte Rosa B",
     "price": 47.00,
-    "imgUrl": "images/kettle.jpeg"
+    "imgUrl": "images/kettle.jpeg",
+    "type": "other"
   },
   {
     "id": 7,
     "name": "Rheinwelle VTR-200",
     "price": 25.00,
-    "imgUrl": "images/phone_black.jpeg"
+    "imgUrl": "images/phone_black.jpeg",
+    "type": "handheld"
   },
   {
     "id": 8,
     "name": "Rheinwelle VTR-450",
     "price": 41.00,
-    "imgUrl": "images/phone_black2.jpeg"
+    "imgUrl": "images/phone_black2.jpeg",
+    "type": "handheld"
   },
   {
     "id": 9,
     "name": "Walthamstow Classic",
     "price": 54.00,
-    "imgUrl": "images/phone_metal.jpeg"
+    "imgUrl": "images/phone_metal.jpeg",
+    "type": "handheld"
   },
   {
     "id": 10,
     "name": "PimlicoPulse V-7000",
     "price": 9.00,
-    "imgUrl": "images/calculator.jpeg"
+    "imgUrl": "images/calculator.jpeg",
+    "type": "other"
   },
   {
     "id": 11,
     "name": "Kronenbaum Y-2043",
     "price": 66.00,
-    "imgUrl": "images/phone_white2.jpeg"
+    "imgUrl": "images/phone_white2.jpeg",
+    "type": "handheld"
   },
   {
     "id": 12,
     "name": "Vauxhall Link XS",
     "price": 22.00,
-    "imgUrl": "images/phone.jpeg"
+    "imgUrl": "images/phone.jpeg",
+    "type": "handheld"
   },
   {
     "id": 13,
     "name": "Victoriavox QM-500",
     "price": 30.00,
-    "imgUrl": "images/radio_brown.jpeg"
+    "imgUrl": "images/radio_brown.jpeg",
+    "type": "radio"
   },
   {
     "id": 14,
     "name": "Narcomi RR-2000",
     "price": 22.00,
-    "imgUrl": "images/radio_brown2.jpeg"
+    "imgUrl": "images/radio_brown2.jpeg",
+    "type": "radio"
   },
   {
     "id": 15,
     "name": "Narcomi P-48",
     "price": 27.00,
-    "imgUrl": "images/radio_red.jpeg"
+    "imgUrl": "images/radio_red.jpeg",
+    "type": "radio"
   },
   {
     "id": 16,
     "name": "Parment (Reptilian)",
     "price": 79.00,
-    "imgUrl": "images/curling_iron.jpeg"
+    "imgUrl": "images/curling_iron.jpeg",
+    "type": "other"
   },
   {
     "id": 17,
     "name": "Radiolo Rust",
     "price": 40.00,
-    "imgUrl": "images/steel_headphones.jpeg"
+    "imgUrl": "images/steel_headphones.jpeg",
+    "type": "headphones"
   },
   {
     "id": 18,
     "name": "Chronomos Red",
     "price": 12.00,
-    "imgUrl": "images/timer.jpeg"
+    "imgUrl": "images/timer.jpeg",
+    "type": "other"
   }
 ]

@@ -1,16 +1,31 @@
 import { Navbar as BootstrapNavbar, Container, Nav, Button} from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import { useShoppingCart } from "../context/ShoppingCartContext"
+import { useFilter } from "../context/FilterContext"
 
 export function Navbar() {
   const { cartQuantity } = useShoppingCart()
+  const { restoreStoreItems, filterStoreItems} = useFilter()
   return (
     <BootstrapNavbar sticky="top" className="bg-black navbar-dark shadow-sm mb-3">
-      <Container>
-        <Nav className="me-auto">
+      <Container className="d-flex flex-wrap">
+        <Nav className="me-auto d-flex flex-wrap">
           <Nav.Link to="/" as={NavLink}>
-            <span className="fs-2">Case Study Electronics</span>
+            <span className="fs-2 my-auto">Case Study Electronics</span>
           </Nav.Link>
+          {/* The following buttons act as filters to decide which items are visible */}
+          <Button onClick={() => restoreStoreItems()} className="my-auto btn-link">
+            All
+          </Button>
+          <Button onClick={() => filterStoreItems("radio")} className="my-auto btn-link">
+            Radios
+          </Button>
+          <Button onClick={() => filterStoreItems("handheld")} className="my-auto btn-link">
+            Handhelds
+          </Button>
+          <Button onClick={() => filterStoreItems("headphones")} className="my-auto btn-link">
+            Headphones
+          </Button>
         </Nav>
         {/* The shopping cart button consists of a nav-link disguised as a bootstrap button. 
         The svg of the shopping cart was taken from flowbite.com/icons/ */}

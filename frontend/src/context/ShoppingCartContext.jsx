@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from "react"
 const ShoppingCartContext = createContext({})
 
 export function useShoppingCart() {
-    return useContext(ShoppingCartContext)
+  return useContext(ShoppingCartContext)
 }
 
 export function ShoppingCartProvider({ children }) {

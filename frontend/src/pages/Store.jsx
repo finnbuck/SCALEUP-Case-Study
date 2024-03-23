@@ -1,8 +1,10 @@
-import storeItems from "../data/items.json"
+// import storeItems from "../data/items.json"
 import { Row, Col } from "react-bootstrap"
 import { StoreItem } from "../components/StoreItem"
+import { useFilter } from "../context/FilterContext"
 
 export function Store() {
+  const { storeItems } = useFilter()
   return <>
     {/* Each Store Item will be a bootstrap card
     depending on the screen size there will be either
