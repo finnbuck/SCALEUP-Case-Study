@@ -5,16 +5,16 @@ import { useShoppingCart } from "../context/ShoppingCartContext"
 export function Navbar() {
   const { cartQuantity } = useShoppingCart()
   return (
-    <BootstrapNavbar sticky="top" className="bg-white shadow-sm mb-3">
+    <BootstrapNavbar sticky="top" className="bg-black navbar-dark shadow-sm mb-3">
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
-            Store
+            <span className="fs-2">Case Study Electronics</span>
           </Nav.Link>
         </Nav>
         <Nav.Link 
           style={{width: "3rem", height: "3rem", position: "relative" }}
-          className="rounded-circle btn btn-outline-primary active d-flex align-items-center justify-content-center"
+          className="rounded-circle btn active btn-outline-primary d-flex align-items-center justify-content-center"
           to="/shopping-cart" as={NavLink}
         >
           <svg class="w-50 h-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
