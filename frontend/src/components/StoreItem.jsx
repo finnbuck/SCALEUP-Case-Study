@@ -10,7 +10,7 @@ export function StoreItem({ id, name, price, imgUrl }) {
       src={imgUrl} 
     />
     <Card.Body className="d-flex flex-column">
-      <Card.Title className="d-flex justify-content-betweenremoveFromCart align-items-baseline mb-4">
+      <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
         <span className="ms-2 text-light">{name}</span>
         <span className="ms-2 text-light">€{price}</span>
       </Card.Title>
