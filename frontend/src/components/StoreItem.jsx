@@ -2,7 +2,7 @@ import { Card, Button } from "react-bootstrap"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 
 // Each StoreItem card receives data from one object from the items.json file.
-export function StoreItem({ id, name, price, imgUrl }) {
+export function StoreItem({ id, name, price, imgUrl, type }) {
   const { getItemQuantity, increaseCartQuantity } = useShoppingCart()
   const quantity = getItemQuantity(id)
   return <Card className="h-100" bg={"dark"} border="light">
